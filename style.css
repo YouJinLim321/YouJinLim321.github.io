@@ -1,0 +1,31 @@
+html, body {
+	background-color: #00BFFF;
+	color:#F0F8FF;
+	font-size: 20px;
+}
+
+a {
+	color: #191970;
+}
+
+.center {
+	text-align: center;
+	border: 3px ;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:auto;
+	max-width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 90px;
+}
+
+p {
+	text-align: center;
+}

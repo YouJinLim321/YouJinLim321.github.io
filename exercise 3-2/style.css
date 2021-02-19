@@ -3,12 +3,12 @@ body {
   font-family: shlop, sans-serif;
   font-style: normal;
   font-weight: 10px;
-  background-color: #FF0000;
-  color: #000000;
+  background-color:  #000000;
+  color: #FF0000;
 }
 
 a {
-  color: #000000;
+  color: #FF0000;
   font-family: shlop, sans-serif;
   font-size: 25px;
   align: center;

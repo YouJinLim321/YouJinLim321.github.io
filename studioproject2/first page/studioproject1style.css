@@ -19,6 +19,7 @@ a {
 header {
 	max-width:100%;
 	margin:0;
+	padding: 100px;
 }
 
 .center {
@@ -60,9 +61,7 @@ p {
 }
 
 .secondpage {
-	width:100%;
 	background: #FFFFFF;
-	padding: 100px;
 }
 
 .fruitcontainer {

@@ -1,82 +1,18 @@
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-} 
+var i = 0;
+var txt = document.getElementById('demo').textContent; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
 
-
-var nav = document.getElementById('access_nav'),
-      body = document.body;
-
-  nav.addEventListener('click', function(e) {
-    body.className = body.className? '' : 'with_nav';
-    e.preventDefault();
-  });
-
-  
-
-const container = document.querySelector(".container");
-const sliders = document.querySelectorAll(".slider");
-const sliderValues = document.querySelectorAll(".output");
-const buttons = document.querySelectorAll(".button");
-
-// Display property values
-for (let i = 0; i < sliders.length; i++) {
-  sliderValues[i].innerHTML = sliders[i].value;
-}
-
-// Update text property and displayed property value for each slider
-sliders.forEach(slider => {
-    const sliderIndex = slider.getAttribute("data-index");
-    const output = document.querySelector(`.output[data-index="${sliderIndex}"]`);
-    slider.oninput = function() {
-      container.style.setProperty(`--${this.id}`, this.value);
-      output.innerHTML = this.value;
-    };
-  });
-
-// Reset text property and update display property value for each slider
-buttons.forEach(button => {
-  const buttonIndex = button.getAttribute("data-index");
-  const resetOutput = document.querySelector(
-    `.output[data-index="${buttonIndex}"]`
-  );
-  const resetSlider = document.querySelector(
-    `.slider[data-index="${buttonIndex}"]`
-  );
-  button.onclick = function() {
-    container.style.removeProperty(`--${resetSlider.id}`);
-    resetOutput.innerHTML = resetSlider.defaultValue;
-    resetSlider.value = resetSlider.defaultValue;
-    console.log(resetSlider.defaultValue);
-  };
-});
-
-
-
-    // Function to change background color
-    function changeBodyBg(color){
-        document.body.style.background = color;
-    }
-    
-
-   // Function to change section background color
-    function changeSectionBG(color){
-        document.getElementById("section").style.background = color;
-    }
-
-   // Function to change header text color
-    function changeHeaderColor(color) {
-  var elements = document.getElementsByClassName('header'); // get all elements
-  for(var i = 0; i < elements.length; i++){
-    elements[i].style.color = color;
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
   }
 }
 
+document.getElementById('demo').innerHTML="";
+
+typeWriter();
 
 
 

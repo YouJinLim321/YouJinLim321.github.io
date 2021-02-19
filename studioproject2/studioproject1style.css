@@ -14,12 +14,20 @@ a {
 
 h1 {
 	text-align: center;
-	font-size: 90px;
-	font-family: Chicagoflf
-	Format: True Type (TTF)
+	font-size: 100px;
+	font-family: ChicagoFLF;
+	line-height:150px;
 }
 
 h2 {
-	text-align: center;
-	font-size: 50px;
+	text-align: left;
+	font-size: 30px;
+	font-family: ChicagoFLF;
+	line-height: 70px;
+}
+
+@font-face {
+	font-family: "ChicagoFLF";
+	src:url("fonts/ChicagoFLF.ttf");
+	font-weight: 400;
 }

@@ -13,16 +13,20 @@ a {
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 	font-size: 100px;
-	font-family: ChicagoFLF;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	line-height:200px;
 }
 
 h2 {
 	text-align: left;
-	font-size: 30px;
-	font-family: ChicagoFLF;
+	font-size: 250px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	line-height: 70px;
 }
 

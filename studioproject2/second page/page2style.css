@@ -26,6 +26,8 @@ header {
 	font-family: "ChicagoFLF";
 	src:url("fonts/ChicagoFLF.ttf");
 	font-weight: 400;
+	text-align:left;
+	line-height:100px;
 }
 
 .center {

@@ -1,7 +1,7 @@
 .whole {
 	background-color: #000000;
 	max-width:100%;
-	color: #00FF38;
+	color: #00FA9A;
 	margin-bottom: 100px;
 }
 
@@ -27,7 +27,7 @@ header {
 	src:url("fonts/ChicagoFLF.ttf");
 	font-weight: 400;
 	text-align:left;
-	line-height:100px;
+	line-height:50px;
 }
 
 .center {
@@ -36,17 +36,19 @@ header {
 }
 
 .first {
-	text-align: center;
-	font-size: 100px;
+	text-align: left;
+	font-size: 85px;
 	font-family: ChicagoFLF;
-	line-height:210px;
+	line-height:130px;
+	color:#FFFFFF;
 }
 
 h2 {
 	text-align: left;
-	font-size: 30px;
+	font-size: 50px;
 	font-family: ChicagoFLF;
 	line-height: 70px;
+	color: #FFFFFF;
 }
 
 @font-face {
@@ -73,54 +75,10 @@ p {
 	background: #FFFFFF;
 }
 
-.fruitcontainer {
-	width:100%;
-	display:flex;
-	justify-content:center;
-}
-
 .center {
 	text-align: left;
 	border: 3px ;
 }
-
-.fruit {
-	text-align: left;
-	font-size: 50px;
-	font-family: proxima-nova, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	margin-right: 100px;
-	padding: 24px;
-	text-decoration: none;
-}
-
-.fruit:hover {
-	border:1px solid;
-	border-radius:64px;
-}
-
-.fruit.red:hover {
-	border-color: #FF0000;
-}
-	
-.red {
-	color: #FF0000;
-
-}
-
-.yellow {
-	color: #FFE600;
-}
-
-.purple {
-	color: #6100FF;
-}
-
-.green {
-	color: #00FF38;
-}
-
 
 .second {
 	text-align: left;
@@ -129,6 +87,17 @@ p {
 	font-weight: 400;
 	font-style: normal;
 	line-height:115px;
+	color:#000000;
+}
+
+.secondlarge {
+	text-align: left;
+	font-size: 70px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height:115px;
+	color:#000000;
 }
 
 
@@ -136,4 +105,12 @@ p {
 	font-family: "ChicagoFLF";
 	src:url("fonts/ChicagoFLF.ttf");
 	font-weight: 400;
+}
+
+.dot {
+	height: 25px;
+	width: 25px;
+	background-color:#00FA9A;
+	border-radius: 50%;
+	display: inline-block;
 }

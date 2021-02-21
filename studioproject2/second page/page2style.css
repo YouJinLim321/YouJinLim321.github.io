@@ -6,6 +6,12 @@ a {
 	color: #39FF14;
 }
 
+.firstsmall {
+	font-family: "ChicagoFLF";
+	src:url("fonts/ChicagoFLF.ttf");
+	font-weight: 400;
+}
+
 .secondpage {
 	width:100%;
 	transform:translateY(100vh);

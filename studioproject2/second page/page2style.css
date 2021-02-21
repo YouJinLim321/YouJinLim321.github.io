@@ -69,6 +69,7 @@ p {
 	max-width: 100%;
 	word-wrap: break-word;
 	line-height:50px;
+	color:#000000;
 }
 
 .secondpage {
@@ -108,9 +109,10 @@ p {
 }
 
 .dot {
-	height: 25px;
-	width: 25px;
+	height: 300px;
+	width: 300px;
 	background-color:#00FA9A;
 	border-radius: 50%;
 	display: inline-block;
+	vertical-align: center;
 }

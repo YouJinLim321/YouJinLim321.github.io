@@ -116,3 +116,44 @@ p {
 	display: inline-block;
 	vertical-align: center;
 }
+
+.thirdpage {
+	background: #000000;
+}
+
+.interaction {
+	text-align: left;
+	font-size: 50px;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-right: 100px;
+	padding: 24px;
+	text-decoration: none;
+}
+
+.interaction:hover {
+	border:1px solid;
+	border-radius:64px;
+}
+
+.interaction.toddling:hover {
+	border-color: #FF0000;
+}
+	
+.toddling {
+	color: #FF0000;
+
+}
+
+.limousine {
+	color: #FFE600;
+}
+
+.nursingroom {
+	color: #6100FF;
+}
+
+.nightduty {
+	color: #00FF38;
+}

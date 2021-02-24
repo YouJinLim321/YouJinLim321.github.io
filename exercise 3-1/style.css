@@ -9,8 +9,8 @@ html,body {
 a {
   color: #000000;
   font-family: shlop, sans-serif;
-  font-size: 25px;
-  align: center;
+  font-size: 200px;
+  text-align: center;
 }
 
 .center {

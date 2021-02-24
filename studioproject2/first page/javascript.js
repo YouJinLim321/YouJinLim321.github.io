@@ -14,7 +14,7 @@ document.getElementById('demo').innerHTML="";
 
 typeWriter();
 
-
+<script src="/path/to/infinite-scroll.pkgd.min.js"></script>
 
 
 

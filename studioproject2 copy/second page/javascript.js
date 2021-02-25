@@ -14,12 +14,10 @@ document.getElementById('demo').innerHTML="";
 
 typeWriter();
 
-<script src="/path/to/infinite-scroll.pkgd.min.js"></script>
 
-function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-}
+
+
+
 
 
 

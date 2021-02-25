@@ -61,6 +61,13 @@ h1 {
   font-size:80px;
 }
 
+h2 {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  line-height: 70px;
+}
+
 
 @font-face {
 	font-family: 'Bai Jamjuree', sans-serif;

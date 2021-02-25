@@ -1,6 +1,6 @@
 html, body {
 	background-color: #000000;
-	color:#39FF14;
+	color:#FFFFFF;
 }
 
 /* The sidebar menu */
@@ -44,7 +44,7 @@ html, body {
 
 
 a {
-	color: #39FF14;
+	color: #FFFFFF;
 }
 
 .center {
@@ -53,21 +53,13 @@ a {
 }
 
 h1 {
-	text-align: center;
-	font-size: 100px;
-	font-family: ChicagoFLF;
-	line-height:200px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
 }
 
-h2 {
-	text-align: left;
-	font-size: 30px;
-	font-family: ChicagoFLF;
-	line-height: 70px;
-}
 
 @font-face {
-	font-family: "ChicagoFLF";
-	src:url("fonts/ChicagoFLF.ttf");
+	font-family: 'Bai Jamjuree', sans-serif;
 	font-weight: 400;
 }

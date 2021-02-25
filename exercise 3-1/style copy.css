@@ -1,0 +1,37 @@
+html,body {
+  font-family: shlop, sans-serif;
+  font-style: normal;
+  font-weight: 10px;
+  background-color: #FF0000;
+  color: #000000;
+}
+
+a {
+  color: #ffe6e5;
+  font-family: shlop, sans-serif;
+  font-size: 200px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  border: 3px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 200px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}

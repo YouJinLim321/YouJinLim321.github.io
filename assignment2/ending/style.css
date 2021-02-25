@@ -1,0 +1,33 @@
+html, body {
+	background-color: #000000;
+	color:#39FF14;
+}
+
+a {
+	color: #39FF14;
+}
+
+.center {
+	text-align: left;
+	border: 3px ;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+	font-family: ChicagoFLF;
+	line-height:200px;
+}
+
+h2 {
+	text-align: left;
+	font-size: 30px;
+	font-family: ChicagoFLF;
+	line-height: 70px;
+}
+
+@font-face {
+	font-family: "ChicagoFLF";
+	src:url("fonts/ChicagoFLF.ttf");
+	font-weight: 400;
+}

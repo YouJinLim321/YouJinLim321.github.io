@@ -1,28 +1,23 @@
 html, body {
 	background-color: #000000;
-	color:#39FF14;
+	color:#ffffff;
 }
 
 a {
-	color: #39FF14;
-}
-
-.center {
-	text-align: left;
-	border: 3px ;
+	color: #ffffff;
 }
 
 h1 {
 	text-align: center;
-	font-size: 100px;
-	font-family: ChicagoFLF;
+	font-size: 60px;
+	font-family: 'Rock Salt', cursive;
 	line-height:200px;
 }
 
 h2 {
 	text-align: left;
 	font-size: 30px;
-	font-family: ChicagoFLF;
+	font-family: 'Bai Jamjuree', sans-serif;
 	line-height: 70px;
 }
 

@@ -109,7 +109,7 @@ p {
 	border: 3px ;
 }
 
-.fruit {
+.poem {
 	text-align: left;
 	font-size: 50px;
 	font-family: proxima-nova, sans-serif;
@@ -120,32 +120,15 @@ p {
 	text-decoration: none;
 }
 
-.fruit:hover {
+.poem:hover {
 	border:1px solid;
 	border-radius:64px;
 }
 
-.fruit.red:hover {
+.poem.abandon:hover {
 	border-color: #FF0000;
 }
 	
-.red {
-	color: #FF0000;
-
-}
-
-.yellow {
-	color: #FFE600;
-}
-
-.purple {
-	color: #6100FF;
-}
-
-.green {
-	color: #00FF38;
-}
-
 
 .second {
 	text-align: left;

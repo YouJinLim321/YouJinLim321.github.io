@@ -31,7 +31,7 @@ h1 {
 		color:white;
 	}
 
-	html {
+	html,body {
 		background-color:red;
 	}
 }
@@ -46,7 +46,7 @@ h1 {
 		font-size:7vw;
 	}
 
-	html {
+	html,body {
 		background-color:white;
 	}
 }
@@ -60,7 +60,7 @@ h1 {
 		color:blue;
 	}
 
-	html {
+	html,body {
 		background-color:black;
 	}
 }

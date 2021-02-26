@@ -6,12 +6,49 @@ html,body {
   color: #000000;
 }
 
-h1 {
-  text-align: center;
-  font-size: 200px;
+video {
+	width:100%;
+	height:auto;
 }
-
 p {
   text-align: center;
-  font-size: 40px;
+  font-size: 3vw;
+}
+
+h1 {
+	color:black;
+	text-align: center;
+  	font-size: 200px;
+}
+
+@media screen and (min-width: 320px) {
+	h1 {
+		color:white;
+	}
+
+	p {
+		color:white;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	h1 {
+		color:black;
+	}
+
+	p {
+		color:black;
+		font-size:7vw;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	h1 {
+		color:blue;
+	}
+
+	p {
+		color:blue;
+	}
+}
 }

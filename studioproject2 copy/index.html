@@ -27,7 +27,7 @@ body {
 </head>
 <body>
   <div class="container" data-infinite-scroll='{ "path": ".pagination__next", "append": ".post", "history": false }'>
-    <h1>On beginnings</h1>
+    <h1 class="beginnings">On beginnings</h1>
 
     <h4>"White is the beginning of the color, and black is the end of the color."<br>
       Click the button to toggle between dark and light mode for this page.
@@ -39,7 +39,8 @@ body {
       function myFunction() {
          var element = document.body;
          element.classList.toggle("dark-mode");
-      }
+         document.querySelector('.beginnings').classList.toggle('.BebasNeue') 
+              }
     </script>
 
   		<p class ="post">

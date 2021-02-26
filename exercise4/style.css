@@ -1,0 +1,17 @@
+html,body {
+  font-family: shlop, sans-serif;
+  font-style: normal;
+  font-weight: 10px;
+  background-color: #FF0000;
+  color: #000000;
+}
+
+h1 {
+  text-align: center;
+  font-size: 200px;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+}

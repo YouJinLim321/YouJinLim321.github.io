@@ -169,6 +169,15 @@ pre {
 	text-decoration: none;
 }
 
+.page-load-status {
+  display: none; /* hidden by default */
+  padding-top: 20px;
+  border-top: 1px solid #DDD;
+  text-align: center;
+  color: #777;
+}
+
+
 
 @font-face {
 	font-family: "ChicagoFLF";

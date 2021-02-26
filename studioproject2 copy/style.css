@@ -1,22 +1,18 @@
 h1 {
-	font-family: ChicagoFLF;
 	font-size: 90px;
 }
 
 h4 {
-	font-family: ChicagoFLF;
 	font-size: 20px;
 	line-height:50px;
 }
 
 p {
-	font-family: ChicagoFLF;
 	font-size: 25px;
 	line-height:40px;
 }
 
 button {
-	font-family: ChicagoFLF;
 }
 
 .whole {
@@ -38,15 +34,14 @@ body {
   	background-color: white;
   	color: black;
   	font-size: 25px;
+  	font-family: "ChicagoFLF";
 }
 
 .dark-mode {
 	background-color: black;
   	color: white;
-}
-
-.BebasNeue {
-	font-family: "BebasNeue";
+  	font-family: "BebasNeue";
+  	letter-spacing: 2.3px;
 }
 
 a {
@@ -90,8 +85,6 @@ a {
 
 p {
 	font-size: 30px;
-	font-family: "ChicagoFLF";
-	src:url("fonts/ChicagoFLF.ttf");
 	font-weight: 400;
 	font-style: normal;
 	max-width: 100%;
@@ -101,13 +94,16 @@ p {
 
 pre {
 	font-size: 40px;
-	font-family: "ChicagoFLF";
-	src:url("fonts/ChicagoFLF.ttf");
 	font-weight: 400;
 	font-style: normal;
 	max-width: 100%;
 	word-wrap: break-word;
 	line-height:70px;
+	font-family: "ChicagoFLF";
+}
+
+.dark-mode pre {
+	font-family: "BebasNeue";
 }
 
 .secondpage {
@@ -117,8 +113,6 @@ pre {
 .fruitcontainer {
 	width:100%;
 	display:flex;
-	font-family: "ChicagoFLF";
-	src:url("fonts/ChicagoFLF.ttf");
 	font-size: 30px;
 }
 
@@ -130,8 +124,6 @@ pre {
 .poem {
 	text-align: left;
 	font-size: 70px;
-	font-family: "ChicagoFLF";
-	src:url("fonts/ChicagoFLF.ttf");
 	font-weight: 400;
 	font-style: normal;
 	text-decoration: none;
@@ -146,8 +138,6 @@ pre {
 .second {
 	text-align: left;
 	font-size: 70px;
-	font-family: "ChicagoFLF";
-	src:url("fonts/ChicagoFLF.ttf");
 	font-weight: 400;
 	font-style: normal;
 	line-height:115px;

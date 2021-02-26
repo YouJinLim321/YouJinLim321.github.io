@@ -19,7 +19,7 @@ p {
 h1 {
 	color:black;
 	text-align: center;
-  	font-size: 200px;
+  	font-size: 100px;
 }
 
 @media screen and (min-width: 320px) {

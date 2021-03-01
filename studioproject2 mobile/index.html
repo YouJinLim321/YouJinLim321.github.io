@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="http://fonts.cdnfonts.com/css/vanity" rel="stylesheet">
+<link href="http://fonts.cdnfonts.com/css/vanity" rel="stylesheet">
+<style>
+@import url('http://fonts.cdnfonts.com/css/vanity');
+@import url('http://fonts.cdnfonts.com/css/vanity');
+</style>
+
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+  <div class="container" data-infinite-scroll='{ "path": ".pagination__next", "append": ".post", "history": false }'>
+    <h1 class="beginnings">On beginnings</h1>
+
+    <h4>"White is the beginning of the color, and black is the end of the color."<br>
+      Click the button to toggle between dark and light mode for this page.
+    </h4>
+
+    <button onclick="myFunction()">Toggle dark mode</button>
+
+    <script>
+      function myFunction() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+              }
+    </script>
+
+  		<p class ="post">
+        In life, the number of beginnings<br>is exactly equal to the number of endings:<br>no one has yet to begin a life who will not end it.<br>In poetry, the number of beginnings so far exceeds<br>the number of endingsthat we cannot even conceive of it.<br>Not every poem is finished—
+      </p>
+
+  		<pre class ="post">
+  one poem is abandoned,
+  		               another catches fire,
+  		                                     and is carried away by the wind,
+
+  which may be an ending,<br>but it is the ending of a poem without an end.
+  	 </pre>
+
+     <a class="pagination__next" href="index2.html">Next Page</a>
+  </div>
+
+	<script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
+</body>
+</html>

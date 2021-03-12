@@ -1,12 +1,41 @@
 html, body {
 	background-color: #000000;
 	color:#FFFFFF;
+  font-size:20px;
+}
+
+.image-container img{
+  max-width:100%;
+}
+
+.image-container{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.backbutton{
+  position:fixed;
+  top:16px;
+  left:16px;
+  min-width:32px;
+  min-height:32px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #111;
+  text-decoration:none;
+  font-family: 'Rock Salt', cursive;
+  color:white;
+  padding:10px;
+  border:1px solid white;
 }
 
 /* The sidebar menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  right:0;
+  display:flex;
+  padding:10px; /* Full-height: remove this if you want "auto" height */ /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -16,6 +45,7 @@ html, body {
   padding-top: 20px;
   font-family: 'Rock Salt', cursive;
   font-size:20px;
+  justify-content:center;
 }
 
 /* The navigation menu links */
@@ -39,15 +69,6 @@ html, body {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-a {
-	color: #FFFFFF;
-}
 
 .center {
 	text-align: left;
@@ -65,11 +86,34 @@ h2 {
   text-align: left;
   font-size: 30px;
   font-family: 'Bai Jamjuree', sans-serif;
-  line-height: 70px;
+  line-height: 2;
+  padding:0 17px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 
 @font-face {
 	font-family: 'Bai Jamjuree', sans-serif;
 	font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  h1{
+    font-size:40px;
+  }
+  
+  h2{
+    font-size:18px;
+  }
+  header{
+  padding-top:80px;
+}
+
+a {
+  color: #00FFFF;
+}
+
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

@@ -12,10 +12,6 @@ p {
 	line-height:40px;
 }
 
-.pagination__next {
-	display:none;
-}
-
 button {
 }
 
@@ -29,12 +25,11 @@ button {
 html,body {
 	width: 100%;
 	max-width: 100vw;
-	overflow-x: hidden;
-	background:#000000;
 }
 
 body {
 	padding: 25px;
+	padding-bottom:0px !important;
   	background-color: white;
   	color: black;
   	font-size: 25px;
@@ -50,6 +45,10 @@ body {
 
 a {
 	color: #39FF14;
+	z-index: 9 !important;
+	display:block;
+
+
 }
 
 header {
@@ -223,14 +222,14 @@ button::after {
 }
 
 
-.interaction {
+.interaction  {
 	text-align: left;
 	font-size: 50px;
-	font-family: proxima-nova, sans-serif;
+	font-family: "ChicagoFLF";
+	src:url("fonts/ChicagoFLF.ttf");
 	font-weight: 400;
+	line-height: 10;
 	font-style: normal;
-	margin-right: 100px;
-	padding: 24px;
 	text-decoration: none;
 }
 
@@ -256,21 +255,22 @@ button::after {
 	font-weight: 300;
 }
 
-@media screen and (min-width: 480px) {
-	h1 {
-		color:white;
-		font-size:20px;
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) { }
+    body {
+    	width:3000px !important;
+    	position:static;
+    	font-size:18px;
+    }
+    .container {
+    	width:3000px !important;
+    	position:static;
+    	font-size:18px;
+    }
+    .post {
+    	width:300px;
+    	display:inline-block;
+    	font-size:18px;
+    }
 	}
-
-	p {
-		color:white;
-		font-size:10px;
-	}
-
-	html,body {
-		background-color:white;
-	}
-}
-
-
 

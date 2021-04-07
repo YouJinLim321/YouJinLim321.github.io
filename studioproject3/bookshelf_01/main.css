@@ -9,7 +9,7 @@ h1 {
 	margin: 0;
 }
 
-.song-container {
+.card-container {
   padding: 1rem;
   border: 1px solid black;
   border-radius: 25px;
@@ -18,20 +18,20 @@ h1 {
   grid-template-columns: 1fr 1fr;
 }
 
-.song-image {
+.card-image {
 	width: 100%;
 	height: auto;
 	display:none;
 }
 
-.song-image.active {
+.card-image.active {
 	display: block;
 }
 
-.song-description {
+.card-description {
 	display: none;
 }
 
-.song-description.active {
+.card-description.active {
 	display: block;
 }

@@ -1,8 +1,6 @@
-
 body {
   font-family: "Vogue";
   src:url("./fonts/Vogue.ttf");
-  text-align: center;
 }
 
 h1 {
@@ -12,6 +10,7 @@ h1 {
 	font-family: Vogue;
 	text-align: center;
 	line-height: 4rem;
+	color:#000000;
 }
 
 h2 {
@@ -21,7 +20,7 @@ h2 {
 	font-family: Vogue;
 	text-align: left;
 	line-height: 3rem;
-	color:#000000;
+	color:#001BAA;
 }
 
 p {
@@ -54,13 +53,16 @@ list-style-type: none;
 padding-left: 0;
 }
 
-.cover-container {
-flex-basis: 0;
-flex-grow: 999;
-min-width: 50%; /* minimum width of content before the sidebar wraps. adjust to your liking */
+.cover-image {
+	width: 100%;
+	height: auto;
 }
 
-.cover-image {
-	width: 30%;
-	height: auto;
+.covers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 50%;
 }

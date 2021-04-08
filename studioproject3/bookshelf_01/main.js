@@ -62,7 +62,7 @@ function showCovers() {
 
         var coverContainer = document.createElement("div");
         coverContainer.classList.add("cover-container");
-        document.querySelector(".container").append(coverContainer);
+        document.querySelector(".covers").append(coverContainer);
 
         //add song titles to our song container
         var coverYear = document.createElement("h1");

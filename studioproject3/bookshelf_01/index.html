@@ -6,49 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vogue</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-
-    <script type="text/javascript" src="../lib/airtable.js"
-    defer></script>
-    <script type="text/javascript" src="main.js" defer></script>
   </head>
   <body>
     <h1>Vogue</h1>
     <img src="../img/cart.jpg" width="25" height=auto>
     <div class="container">
-        <aside class="filter">
+      <!-- we use buttons whenever we need something clickable that is not a link.
+      it is possible to pass click event listeners to <li>s, but using buttons is the best practice for accessibility -->
+      <aside class="filter">
         <h2>Hair style</h2>
-        <ul class="filter-list">
-        <li class="curly">Curly  $50</li>
-        <li class="straight">Straight  $45</li>
+        <ul class="filter-list" data-category="hair">
+          <li>
+            <button class="filter-item" data-value="curly">Curly  $50</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="straight">Straight  $45</button>
+          </li>
         </ul>
         <h2>Makeup</h2>
-        <ul class="filter-list">
-        <li class="dreamy">Dreamy</li>
-        <li class="lovely">Lovely</li>
-        <li class="chic">Chic</li>
-        <li class="powerful">Powerful</li>
-        <li class="lonely">Lonely</li>
-        <li class="soleless">Soleless</li>
-        <li class="vintage">Vintage</li>
-        <li class="sexy">Sexy</li>
-        <li class="playful">Playful</li>
+        <ul class="filter-list" data-category="makeup">
+          <li>
+            <button class="filter-item" data-value="dreamy">Dreamy</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="lovely">Lovely</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="chic">Chic</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="powerful">Powerful</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="lonely">Lonely</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="soleless">Soleless</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="vintage">Vintage</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="sexy">Sexy</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="playful">Playful</button>
+          </li>
         </ul>
         <h2>Clothing</h2>
-        <ul class="filter-list">
-        <li class="warm">Warm  $80</li>
-        <li class="neutral">Neutral  $50</li>      
-        <li class="bright">Bright  $100</li>
-        <li class="cool">Cool  $100</li>
-        <li class="dark">Dark  $80</li>
+        <ul class="filter-list" data-category="clothing">
+          <li>
+            <button class="filter-item" data-value="warm">Warm  $80</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="neutral">Neutral  $50</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="bright">Bright  $100</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="cool">Cool  $100</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="dark">Dark  $80</button>
+          </li>
         </ul>
         <h2>Background</h2>
-        <ul class="filter-list">
-        <li class="city">City</li>
-        <li class="nature">Nature</li>
+        <ul class="filter-list" data-category="background">
+          <li>
+            <button class="filter-item" data-value="city">City</button>
+          </li>
+          <li>
+            <button class="filter-item" data-value="nature">Nature</button>
+          </li>
         </ul>
-        </aside>
+      </aside>
 
-        <main class="covers"></main>
-     </div>
+      <main class="covers"></main>
+    </div>
+
+    <script type="text/javascript" src="../lib/airtable.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

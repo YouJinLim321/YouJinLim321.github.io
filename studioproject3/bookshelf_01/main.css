@@ -40,16 +40,16 @@ p {
   flex-wrap: wrap;
 }
 
-.filter {
-	  flex-basis: 20rem; /* width of the sidebar. adjust to your liking */
+.filter { 
   	flex-grow: 1;
   	margin: 0;
   	padding-left: 0;
   	width: 200px;
   	background-color: #FFFFFF;
-  	position: fixed;
+  	position: sticky;
   	height: 100%;
   	overflow: auto;
+    top:0px;
 
 }
 

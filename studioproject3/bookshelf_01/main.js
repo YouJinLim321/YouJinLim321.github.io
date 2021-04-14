@@ -86,6 +86,7 @@ function addFilterEventListeners() {
   const filterItems = document.querySelectorAll(".filter-item");
   filterItems.forEach((item) => {
     item.addEventListener("click", (event) => {
+      document.body.style.backgroundColor = event.target.getAttribute('data-bg')
       // remove all covers first
       clearCovers();
 

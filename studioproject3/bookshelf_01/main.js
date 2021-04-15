@@ -104,8 +104,8 @@ function addFilterEventListeners() {
       showCovers(covers.filter((cover) => cover.fields[category][0] === value));
     }, false);
   });
-
-  function createModal(event) {
+}
+ function createModal(event) {
     const modal = document.createElement('div');
     modal.classList.add('modal');
     modal.addEventListener('click', () => {
@@ -115,6 +115,5 @@ function addFilterEventListeners() {
     image.classList.add('modal-image');
     image.src = event.target.src;
     modal.appendChild(image);
-    document.body.appendChild(image);
-}
+    document.body.appendChild(modal);
 }

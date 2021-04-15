@@ -61,6 +61,7 @@ function showCovers(array) {
     const coverImage = document.createElement("img");
     coverImage.classList.add("cover-image");
     coverImage.src = cover.fields.cover_image[0].url;
+    coverImage.addEventListener('click', createModal, false);
 
     coverContainer.append(coverImage);
     return coverContainer;
@@ -103,4 +104,17 @@ function addFilterEventListeners() {
       showCovers(covers.filter((cover) => cover.fields[category][0] === value));
     }, false);
   });
+
+  function createModal(event) {
+    const modal = document.createElement('div');
+    modal.classList.add('modal');
+    modal.addEventListener('click', () => {
+        modal.remove();    
+    }, false);
+    const image = document.createElement('img');
+    image.classList.add('modal-image');
+    image.src = event.target.src;
+    modal.appendChild(image);
+    document.body.appendChild(image);
+}
 }

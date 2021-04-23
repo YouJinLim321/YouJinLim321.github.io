@@ -1,0 +1,21 @@
+.step2,.step3,.step4,.step5,.step6,.step7,.step8,.step9,.step10,.step11,.step12 {
+	display:none;
+}
+
+.body {
+	color:white;
+}
+.h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size:100px;
+}
+
+.h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size:80px;
+}
+
+.p{
+	font-family: 'Libre Baskerville', serif;
+	font-size:40px;
+}

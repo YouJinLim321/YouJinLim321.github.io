@@ -1,0 +1,121 @@
+@font-face {
+	font-family: "Vogue";
+	src: url("../fonts/Vogue.ttf");
+}
+
+body {
+  font-family: "Vogue";
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.8rem;
+	margin: 0;
+	font-family: "Vogue";
+	text-align: left;
+	line-height: 3rem;
+	color:#000000;
+}
+
+h2 {
+	font-weight: bolder;
+	font-size: 1.3rem;
+	font-family: "Vogue";
+	text-align: left;
+	line-height: 2rem;
+	color:#000000;
+}
+
+p {
+	font-weight: normal;
+	font-size: 1rem;
+	margin: 0;
+	font-family: "Vogue";
+	text-align: center;
+	line-height: 1rem;
+}
+
+.container {
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.filter { 
+  	flex-grow: 1;
+  	margin: 0;
+  	padding-left: 0;
+  	width: 200px;
+  	background-color: none;
+  	position: sticky;
+  	height: 100%;
+  	overflow: auto;
+    top:0px;
+
+}
+
+.filter a {
+	display: block;
+  	color: black;
+  	padding: 16px;
+  	text-decoration: none;
+}
+
+.filter a.active {
+	background-color: #4CAF50;
+  	color: white;
+}
+
+.filter a:hover:not(.active) {
+	background-color: #555;
+ 	color: white;
+}
+
+.filter-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* make buttons look like text */
+.filter-item {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.cover-image {
+	width: 100%;
+	height: auto;
+}
+
+.covers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2.5rem;
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: 50%;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5%;
+}
+.modal-image {
+    max-height: 100%;
+    width: auto;
+}

@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'Arima Madurai', cursive;
+}
+html,body {
+  background-color:#82B3FC;
+  color:#000000;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.8rem;
+	margin: 0;
+	text-align: center;
+	line-height: 3rem;
+	color:#FFFFFF;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 1.3rem;
+	text-align: center;
+	line-height: 2rem;
+	color:#FFFFFF;
+}
+
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.template {
+	display: none;
+}
+
+.stars {
+	display: flex;
+	flex-flow: row-reverse nowrap;
+}
+
+.star {
+	display: inline-block;
+	color: var(--color-background-secondary);
+}
+
+.star:hover,
+.star:hover ~ .star {
+	color: var(--color-primary);
+}
+
+.star:active,
+.star:active ~ .star {
+	color: var(--color-secondary);
+}
+
+.star:focus {
+	border: none;
+	outline: none;
+}
+
+.star:focus > svg,
+.star:focus ~ .star > svg {
+	stroke: #fff;
+	stroke-linejoin: round;
+}
+
+.star > svg {
+	width: 3rem;
+	height: auto;
+	padding: 0.5rem;
+	overflow: visible;
+}

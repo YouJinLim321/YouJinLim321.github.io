@@ -2,6 +2,10 @@
 	font-family: 'Arima Madurai', cursive;
 }
 
+head,body {
+	background-color:#7DC7FB;
+}
+
 h1 {
 	font-weight: normal;
 	font-size: 1.8rem;
@@ -17,4 +21,10 @@ h2 {
 	text-align: center;
 	line-height: 2rem;
 	color:#FFFFFF;
+	text-align:center;
+	padding:200px;
+}
+
+body {
+	background-image:url('2star.jpg');
 }

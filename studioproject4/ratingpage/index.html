@@ -10,56 +10,11 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    <div class="wrapper">
-  <nav class="stars">
-    <a class="star" href="https://example.com/">
-<div class="wrapper" id="root">
-	<fieldset class="rating-field" id="rating-field">
-		<legend class="heading">Can you rate your day?</legend>
-		<input type="radio" name="stars" value="5" id="stars-5">
-		<label for="stars-5">
-			<svg viewBox="0 0 24 24">
-				<use href="#star">
-			</svg>
-			<span class="visually-hidden">5 stars</span>
-		</label>
-		<input type="radio" name="stars" value="4" id="stars-4">
-		<label for="stars-4">
-			<svg viewBox="0 0 24 24">
-				<use href="#star">
-			</svg>
-			<span class="visually-hidden">4 stars</span>
-		</label>
-		<input type="radio" name="stars" value="3" id="stars-3">
-		<label for="stars-3">
-			<svg viewBox="0 0 24 24">
-				<use href="#star">
-			</svg>
-			<span class="visually-hidden">3 stars</span>
-		</label>
-		<input type="radio" name="stars" value="2" id="stars-2">
-		<label for="stars-2">
-			<svg viewBox="0 0 24 24">
-				<use href="#star">
-			</svg>
-			<span class="visually-hidden">2 stars</span>
-		</label>
-		<input type="radio" name="stars" value="1" id="stars-1">
-		<label for="stars-1">
-			<svg viewBox="0 0 24 24">
-				<use href="#star">
-			</svg>
-			<span class="visually-hidden">1 star</span>
-		</label>
-		<button id="submit-button">Submit</button>
-	</fieldset>
-</div>
+  	<script src="//code.jquery.com/jquery.min.js"></script>
 
-<svg class="template">
-	<path id="star" d="m23.363 8.584-7.378-1.127-3.307-7.044c-.247-.526-1.11-.526-1.357 0l-3.306 7.044-7.378 1.127c-.606.093-.848.83-.423 1.265l5.36 5.494-1.267 7.767c-.101.617.558 1.08 1.103.777l6.59-3.642 6.59 3.643c.54.3 1.205-.154 1.103-.777l-1.267-7.767 5.36-5.494c.425-.436.182-1.173-.423-1.266z" fill="currentColor" />
-	<circle id="circle" cx="50%" cy="50%" r="50%" fill="currentColor" />
-	<rect id="rect" x="0" y="0" width="100%" height="100%" fill="currentColor" />
-</svg>
-    <script type="text/javascript" src="main.js"></script>
+	<script src="emotion-ratings.js"></script>
+
+	<div id="myRating"></div>
+	
   </body>
 </html>

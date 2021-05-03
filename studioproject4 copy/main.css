@@ -4,6 +4,7 @@ h1{
 }
 
 body{
+	background-size: cover;
 	background-image:url('title.jpg');
 	margin:0;
 	padding:0;

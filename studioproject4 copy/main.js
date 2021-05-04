@@ -4,52 +4,36 @@ $(document).ready(function(){
     $("#s1").click(function(){
         $(".fa-star").css("color","black")
         $("#s1").css("color","yellow");
-        $(".star1-1").css("display","block");
-        $(".star1-2").css("display","block");
-        $(".star1-2").css("display","block");
-        $(".star1-3").css("display","block");
-        $(".star1-4").css("display","block");
-        $(".star1-5").css("display","block");
+        getRandomMessage(1).css("display", "block");
         $('body').css('background-image','url(\'1star.jpg\')');
       });
     $("#s2").click(function(){
         $(".fa-star").css("color","black")
         $("#s1,#s2").css("color","yellow");
-        $(".star2-1").css("display","block");
-        $(".star2-2").css("display","block");
-        $(".star2-3").css("display","block");
-        $(".star2-4").css("display","block");
-        $(".star2-5").css("display","block");
+        getRandomMessage(2).css("display", "block");
         $('body').css('background-image','url(\'2star.jpg\')');
       });
     $("#s3").click(function(){
         $(".fa-star").css("color","black")
         $("#s1,#s2,#s3").css("color","yellow");
-        $(".star3-1").css("display","block");
-        $(".star3-2").css("display","block");
-        $(".star3-3").css("display","block");
-        $(".star3-4").css("display","block");
-        $(".star3-5").css("display","block");
+        getRandomMessage(3).css("display", "block");
         $('body').css('background-image','url(\'3star.jpg\')');
       });
     $("#s4").click(function(){
         $(".fa-star").css("color","black")
         $("#s1,#s2,#s3,#s4").css("color","yellow");
-        $(".star4-1").css("display","block");
-        $(".star4-2").css("display","block");
-        $(".star4-3").css("display","block");
-        $(".star4-4").css("display","block");
-        $(".star4-5").css("display","block");
+        getRandomMessage(4).css("display", "block");
         $('body').css('background-image','url(\'4star.jpg\')');
       });
     $("#s5").click(function(){
         $(".fa-star").css("color","black")
         $(".fa-star").css("color","yellow");
-        $(".star5-1").css("display","block");
-        $(".star5-2").css("display","block");
-        $(".star5-3").css("display","block");
-        $(".star5-4").css("display","block");
-        $(".star5-5").css("display","block");
+        getRandomMessage(5).css("display", "block");
         $('body').css('background-image','url(\'5star.jpg\')');
       });
     });
+
+     function getRandomMessage(category, from = 1, to = 5) {
+    const selection = Math.floor(Math.random() * (to - from + 1) + from);
+    return $(`.star${category}-${selection}`);
+}
